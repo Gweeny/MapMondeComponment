@@ -1,0 +1,20 @@
+.map{
+    width: 100%;
+    float: left;
+}
+
+.map path {
+    fill: rgb(21,157,210);
+    stroke: #fff;
+    stroke-width: 0.5;
+    transition: fill 0.3s;
+}
+
+.country path:hover {
+    fill: rgb(12, 85, 114);
+
+}
+
+.disabled {
+    fill: rgb(0, 56, 102);
+}
